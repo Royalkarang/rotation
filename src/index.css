@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.creative {
+  transform: perspective(1500px) rotateX(-20deg) rotateY(-20deg);
+  transition: transform 0.5s ease;
+}
+
+.creative:hover {
+  transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+}
+
+
+.height-indicator{
+  box-shadow: 8px -6px 0px rgb(125, 125, 139);
+  
+}
+.height-indicator:hover {
+  transition: transform 0.5s ease;
+  box-shadow: 8px -6px 0px blue;
+}
